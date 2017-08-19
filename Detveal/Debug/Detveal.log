@@ -1,0 +1,39 @@
+﻿生成启动时间为 2017/5/1 17:00:21。
+     1>项目“E:\project\Detveal\Detveal\Detveal.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /I"E:\project\Detevalpackage\iconv-1.9.2.win32\include" /I"E:\project\Detevalpackage\libxml2-2.7.8.win32\include" /I"E:\project\Detevalpackage\zlib-1.2.5\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt evaldetection.cpp readdeteval1.cpp
+         readdeteval1.cpp
+         Importing getopt library
+     1>e:\project\detveal\detveal\readdeteval1.cpp(108): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\project\detveal\detveal\readdeteval1.cpp(111): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\project\detveal\detveal\readdeteval1.cpp(114): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\project\detveal\detveal\readdeteval1.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+         evaldetection.cpp
+         Importing getopt library
+     1>e:\vs2013\vc\include\fcntl.h(76): warning C4005: “O_BINARY”: 宏重定义
+                 e:\project\detveal\detveal\visualbug.h(40) : 参见“O_BINARY”的前一个定义
+     1>e:\project\detveal\detveal\visualbug.h(40): warning C4005: “O_BINARY”: 宏重定义
+                 e:\vs2013\vc\include\fcntl.h(76) : 参见“O_BINARY”的前一个定义
+     1>e:\project\detveal\detveal\boxoverlaprelative.h(78): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>e:\project\detveal\detveal\boxoverlaprelative.h(79): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         正在生成代码...
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\Detveal\Debug\Detveal.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\project\Detevalpackage\iconv-1.9.2.win32\lib" /LIBPATH:"E:\project\Detevalpackage\libxml2-2.7.8.win32\lib" /LIBPATH:"E:\project\Detevalpackage\zlib-1.2.5\lib" /LIBPATH:E:\openCV\opencv\build\x86\vc12\lib /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib" iconv.lib iconv_a.lib libxml2.lib libxml2_a.lib libxml2_a_dll.lib zdll.lib zlib.lib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\Detveal\Debug\Detveal.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\Detveal\Debug\Detveal.lib" /MACHINE:X86 Debug\BoxEvaluator.obj
+         Debug\BoxMatrix.obj
+         Debug\BoxOverlap.obj
+         Debug\CIL.obj
+         Debug\evaldetection.obj
+         Debug\evaldetection1.obj
+         Debug\OptionContainer.obj
+         Debug\ParameterParsing.obj
+         Debug\readdeteval.obj
+         Debug\readdeteval1.obj
+         Debug\Rect.obj
+         Debug\RectEval.obj
+         Debug\RectEvalList.obj
+         Detveal.vcxproj -> E:\project\Detveal\Debug\Detveal.exe
+     1>已完成生成项目“E:\project\Detveal\Detveal\Detveal.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.10
